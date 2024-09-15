@@ -3,7 +3,7 @@ import { listTools } from "../components/tools/listTools";
 
 export function Tools() {
     return (
-        <div className="p-4 sm:px-6 lg:px-16 2xl:px-36 pt-32 overflow-auto">
+        <div className="p-4 sm:px-6 lg:px-16 2xl:px-36 py-32 overflow-auto">
             <h1 className='text-2xl sm:text-3xl lg:text-4xl 2xl:text-5xl font-semibold text-emerald-700 mb-10 text-center'>
                 Ferramentas Recomendadas
             </h1>

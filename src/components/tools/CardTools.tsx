@@ -21,7 +21,7 @@ export function CardTools({img, page, description, title} : CardToolsProps) {
             </div>
             <div className="px-4 pb-4 pt-2 mt-auto">
                 <button className="py-2 px-4 hover:opacity-80 text-white rounded-lg bg-gradient-to-r from-emerald-600 to-emerald-900 font-semibold" type="button">
-                    <a href={page}>Visite o site</a>
+                    <a href={page} target="_blank">Visite o site</a>
                 </button>
             </div>
         </div>
