@@ -1,6 +1,6 @@
-import { Objectives } from "../components/Objectives";
-import { Hero } from "../components/Hero";
-import { Faq } from "../components/faq/Faq";
+import { Objectives } from "../components/home/Objectives";
+import { Hero } from "../components/home/Hero";
+import { Faq } from "../components/home/faq/Faq";
 
 export function Home() {
     return (
