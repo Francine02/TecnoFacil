@@ -34,7 +34,7 @@ export function Header() {
 
                         <button className="p-2" onClick={() => handleNavigation("/tutorials")}>Tutoriais</button>
 
-                        <button className="p-2" onClick={() => handleNavigation("/support")}>Suporte</button>
+                        <button className="py-2 px-4 hover:opacity-80 text-white rounded-lg bg-gradient-to-r from-emerald-500 to-emerald-800" onClick={() => handleNavigation("/support")}>Suporte</button>
                     </div>
                 </nav>
             )}
@@ -48,7 +48,7 @@ export function Header() {
 
                     <button className="py-2 px-4 hover:text-emerald-800" onClick={() => navigate("/tutorials")}>Tutoriais</button>
 
-                    <button className="py-2 px-4 hover:text-emerald-800" onClick={() => navigate("/support")}>Suporte</button>
+                    <button className="ml-5 py-2 px-4 hover:opacity-80 text-white rounded-lg bg-gradient-to-r from-emerald-500 to-emerald-800" onClick={() => navigate("/support")}>Suporte</button>
                 </div>
             </nav>
         </header>
